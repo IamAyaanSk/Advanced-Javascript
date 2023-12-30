@@ -28,7 +28,7 @@ console.log(p2.getFullName());
 //   this.isSuperHero = true;
 // };
 
-// Now we want that the object instancoated from SuperHero must have properties and methods of the Person constructor function
+// Now we want that the object instanciated from SuperHero must have properties and methods of the Person constructor function
 
 function SuperHero(fName, lName) {
   Person.call(this, fName, lName); // Now we have the firstname and lastname properties
